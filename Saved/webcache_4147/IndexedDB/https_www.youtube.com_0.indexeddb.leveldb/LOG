@@ -1,0 +1,5 @@
+2022/11/27-10:44:39.198 42b4 Reusing MANIFEST E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/27-10:54:29.448 43ec Level-0 table #5: started
+2022/11/27-10:54:29.587 43ec Level-0 table #5: 8959 bytes OK
+2022/11/27-10:54:29.640 43ec Delete type=0 #3
+2022/11/27-10:54:29.640 43ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
