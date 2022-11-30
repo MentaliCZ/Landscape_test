@@ -2299,3 +2299,71 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2022.11.30-19.20.29:559][738]LogShaderCompilers: Display: ================================================
 [2022.11.30-19.20.29:594][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
 [2022.11.30-19.20.29:631][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.11.30-19.28.30:153][738]LogSlate: Window 'Save Content' being destroyed
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: ================================================
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Total job queries 1207, among them cache hits 977 (80.94%)
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Tracking 205 distinct input hashes that result in 61 distinct outputs (29.76%)
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: RAM used: 0.14 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.04%
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Shaders Compiled: 70
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Jobs assigned 205, completed 205 (100.00%)
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Average time worker was idle: 65.32 s
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Time job spent in pending queue: average 2.72 s, longest 24.42 s
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Job execution time: average 4.29 s, max 18.47 s
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Job life time (pending + execution): average 7.02 s, max 30.94
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 284.39 s
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Jobs were issued in 196 batches (only local compilation was used), average 1.05 jobs/batch
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Average processing rate: 0.72 jobs/sec
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Effective parallelization: 2.14 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.11.30-19.28.30:547][738]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   12 times, average 4.27 sec, max 11.65 sec, min 1.45 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   23 times, average 4.23 sec, max 9.78 sec, min 2.13 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled   12 times, average 4.07 sec, max 10.44 sec, min 1.51 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    9 times, average 3.46 sec, max 7.03 sec, min 1.82 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   44 times, average 3.40 sec, max 7.91 sec, min 1.60 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.61% of total time (compiled   44 times, average 3.40 sec, max 7.91 sec, min 1.60 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.58% of total time (compiled   44 times, average 2.98 sec, max 7.84 sec, min 1.31 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.00% of total time (compiled   23 times, average 4.23 sec, max 9.78 sec, min 2.13 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 8.42% of total time (compiled   12 times, average 4.27 sec, max 11.65 sec, min 1.45 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 8.03% of total time (compiled   12 times, average 4.07 sec, max 10.44 sec, min 1.51 sec)
+[2022.11.30-19.28.30:548][738]LogShaderCompilers: Display: ================================================
+[2022.11.30-19.28.30:673][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Megascans/Surfaces/Beach_blend" FILE="../../../../../Unreal_projekty/Landscape_test/Landscape_test/Content/Megascans/Surfaces/Beach_blend.uasset" SILENT=true
+[2022.11.30-19.28.30:684][738]LogSavePackage: Moving output files for package: /Game/Megascans/Surfaces/Beach_blend
+[2022.11.30-19.28.30:704][738]LogSavePackage: Moving '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Saved/Beach_blendDF1B84B4407CDD76A5688D8D867148C7.tmp' to '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Content/Megascans/Surfaces/Beach_blend.uasset'
+[2022.11.30-19.28.30:727][738]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default_sharedassets/Grass_LayerInfo
+[2022.11.30-19.28.30:727][738]LogSavePackage: Moving '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Saved/Grass_LayerInfoA1C15B08400F2A692CD5508AEDA0744C.tmp' to '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Content/StarterContent/Maps/Minimal_Default_sharedassets/Grass_LayerInfo.uasset'
+[2022.11.30-19.28.30:742][738]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default_sharedassets/Sand_LayerInfo
+[2022.11.30-19.28.30:742][738]LogSavePackage: Moving '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Saved/Sand_LayerInfo1C23FAF14166D55265FF33818A4181F4.tmp' to '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Content/StarterContent/Maps/Minimal_Default_sharedassets/Sand_LayerInfo.uasset'
+[2022.11.30-19.28.30:746][738]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default_sharedassets/Shore_rocks_LayerInfo
+[2022.11.30-19.28.30:747][738]LogSavePackage: Moving '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Saved/Shore_rocks_LayerInfoD295014A46A476DBE9D068A920CBB16B.tmp' to '../../../../../Unreal_projekty/Landscape_test/Landscape_test/Content/StarterContent/Maps/Minimal_Default_sharedassets/Shore_rocks_LayerInfo.uasset'
+[2022.11.30-19.28.30:759][738]LogStall: Shutdown...
+[2022.11.30-19.28.30:894][738]LogStall: Shutdown complete.
+[2022.11.30-19.28.31:006][738]LogSlate: Window 'Beach_blend' being destroyed
+[2022.11.30-19.28.31:117][738]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-19.28.31:117][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-19.28.31:603][738]LogSlate: Window 'Enviroment_testwater - Unreal Editor' being destroyed
+[2022.11.30-19.28.35:185][738]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.30-19.28.35:185][738]LogContentValidation: Display: Validating Material /Game/Megascans/Surfaces/Beach_blend.Beach_blend
+[2022.11.30-19.28.35:185][738]LogContentValidation: Display: Validating LandscapeLayerInfoObject /Game/StarterContent/Maps/Minimal_Default_sharedassets/Shore_rocks_LayerInfo.Shore_rocks_LayerInfo
+[2022.11.30-19.28.35:185][738]LogContentValidation: Display: Validating LandscapeLayerInfoObject /Game/StarterContent/Maps/Minimal_Default_sharedassets/Grass_LayerInfo.Grass_LayerInfo
+[2022.11.30-19.28.35:185][738]LogContentValidation: Display: Validating LandscapeLayerInfoObject /Game/StarterContent/Maps/Minimal_Default_sharedassets/Sand_LayerInfo.Sand_LayerInfo
+[2022.11.30-19.28.35:300][739]Cmd: QUIT_EDITOR
+[2022.11.30-19.28.35:324][739]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.11.30-19.28.35:475][739]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.11.30-19.28.35:506][739]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.11.30-19.28.35:508][739]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.11.30-19.28.37:867][739]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.11.30-19.28.37:867][739]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.11.30-19.28.37:867][739]LogAudio: Display: Audio Device unregistered from world 'Minimal_Default'.
+[2022.11.30-19.28.37:879][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.11.30-19.28.37:883][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.11.30-19.28.38:221][739]LogAudio: Display: Audio Device Manager Shutdown
+[2022.11.30-19.28.38:326][739]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.11.30-19.28.38:364][739]LogExit: Preparing to exit.
+[2022.11.30-19.28.39:550][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.11.30-19.28.43:651][739]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-19.28.43:651][739]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-19.28.43:652][739]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-19.28.43:960][739]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
