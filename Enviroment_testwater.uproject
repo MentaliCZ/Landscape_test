@@ -14,16 +14,6 @@
 		{
 			"Name": "Water",
 			"Enabled": true
-		},
-		{
-			"Name": "OpenXR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android",
-				"HoloLens"
-			]
 		}
 	]
 }
