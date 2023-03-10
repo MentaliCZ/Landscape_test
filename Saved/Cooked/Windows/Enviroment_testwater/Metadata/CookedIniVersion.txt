@@ -1,7 +1,7 @@
 [UsedSettings]
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bDeterministicShaderCodeOrder:0=False
-Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
-Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
+Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass="/Script/Engine.World",bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=("/Game/Maps/Level_exterior.Level_exterior"),Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
+Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass="/Script/Engine.PrimaryAssetLabel",bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 Windows.Engine:AssetRegistry:CookedTagsBlacklist:0=(Class=/Script/Engine.Blueprint,Tag=FiB)
 Windows.Engine:AssetRegistry:CookedTagsBlacklist:1=(Class=/Script/Engine.Blueprint,Tag=FiBData)
 Windows.Engine:AssetRegistry:CookedTagsBlacklist:2=(Class=*,Tag=AssetImportData)
@@ -20,7 +20,7 @@ Windows.Engine:AssetRegistry:bFilterSearchableNames:0=true
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Level1.Level1
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C
 Windows.Engine:Core.System:CanUseUnversionedPropertySerialization:0=True
 Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
 Editor:/Script/UnrealEd.UnrealEdOptions:bExpandClassPickerClassList:0=False
@@ -197,7 +197,7 @@ Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engin
 Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Maps/Level1.Level1
 Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Level1.Level1
 Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
+Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C
 Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
 Engine:InstallBundleManager:EditorModuleName:0=NullInstallBundleManager
 Engine:URL:Protocol:0=unreal
@@ -571,6 +571,7 @@ Engine:DevOptions.Shaders:bLogJobCompletionTimes:0=False
 Engine:DevOptions.Shaders:ProcessGameThreadTargetTime:0=.01
 Engine:DevOptions.Shaders:WorkerTimeToLive:0=20
 Engine:DevOptions.Shaders:BuildWorkerTimeToLive:0=1200
+Engine:DevOptions.Shaders:WorkerProcessPriority:0=-1
 Engine:DevOptions.Shaders:bForceUseSCWMemoryPressureLimits:0=False
 Engine:LogFiles:PurgeLogsDays:0=5
 Engine:LogFiles:MaxLogFilesOnDisk:0=10
@@ -927,8 +928,14 @@ Game:/Script/AIModule.EnvQueryManager:MaxAllowedTestingTime:0=0.01
 Game:/Script/AIModule.EnvQueryManager:bTestQueriesUsingBreadth:0=true
 Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
 Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
-Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
-Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
+Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass="/Script/Engine.World",bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=("/Game/Maps/Level_exterior.Level_exterior"),Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
+Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass="/Script/Engine.PrimaryAssetLabel",bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
+Game:/Script/Engine.AssetManagerSettings:bOnlyCookProductionAssets:0=False
+Game:/Script/Engine.AssetManagerSettings:bShouldManagerDetermineTypeAndName:0=False
+Game:/Script/Engine.AssetManagerSettings:bShouldGuessTypeAndNameInEditor:0=True
+Game:/Script/Engine.AssetManagerSettings:bShouldAcquireMissingChunksOnLoad:0=False
+Game:/Script/Engine.AssetManagerSettings:bShouldWarnAboutInvalidAssets:0=True
+Game:/Script/Engine.AssetManagerSettings:MetaDataTagsForAssetRegistry:0=()
 Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:0=True
 Input:/Script/Engine.InputSettings:bEnableFOVScaling:0=True
 Input:/Script/Engine.InputSettings:FOVScale:0=0.011110
