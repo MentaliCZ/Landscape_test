@@ -1,0 +1,6 @@
+2023/03/11-12:12:44.251 2ff4 Creating DB E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2023/03/11-12:12:44.766 2ff4 Reusing MANIFEST E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/11-12:13:48.648 25a0 Level-0 table #5: started
+2023/03/11-12:13:48.738 25a0 Level-0 table #5: 6811 bytes OK
+2023/03/11-12:13:48.787 25a0 Delete type=0 #3
+2023/03/11-12:13:48.799 25a0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
