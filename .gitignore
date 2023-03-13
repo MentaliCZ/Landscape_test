@@ -3,3 +3,6 @@ Binaries/Win64/Enviroment_testwater.exe
 Saved/StagedBuilds/Windows/Enviroment_testwater/Binaries/Win64/Enviroment_testwater.exe
 Saved/StagedBuilds/Windows/Enviroment_testwater/Binaries/Win64/Enviroment_testwater.pdb
 Saved/StagedBuilds/Windows/Enviroment_testwater/Content/Paks/Enviroment_testwater-Windows.ucas
+Binaries/Win64/Enviroment_testwater.pdb
+*.pdb
+Intermediate/Build/Win64/Enviroment_testwater/Development/Core/SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h.pch
