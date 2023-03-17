@@ -6,3 +6,5 @@ Saved/StagedBuilds/Windows/Enviroment_testwater/Content/Paks/Enviroment_testwate
 Binaries/Win64/Enviroment_testwater.pdb
 *.pdb
 Intermediate/Build/Win64/Enviroment_testwater/Development/Core/SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h.pch
+Content/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.uasset
+Intermediate/CachedAssetRegistry.bin
