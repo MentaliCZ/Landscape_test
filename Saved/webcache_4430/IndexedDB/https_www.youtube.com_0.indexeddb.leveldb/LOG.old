@@ -1,15 +1,15 @@
-2023/03/19-15:49:56.417 3330 Reusing MANIFEST E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/19-15:49:56.419 3330 Recovering log #7
-2023/03/19-15:49:56.419 3330 Reusing old log E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000007.log 
-2023/03/19-16:22:36.102 3944 Level-0 table #12: started
-2023/03/19-16:22:36.268 3944 Level-0 table #12: 13349 bytes OK
-2023/03/19-16:22:36.353 3944 Delete type=0 #7
-2023/03/19-16:22:36.388 3944 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2023/03/19-16:22:36.388 3944 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xce\x06\x06mxB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 244 : 0
-2023/03/19-16:22:36.416 3944 Compacting 1@1 + 1@2 files
-2023/03/19-16:22:36.460 3944 Generated table #13@1: 46 keys, 2927 bytes
-2023/03/19-16:22:36.460 3944 Compacted 1@1 + 1@2 files => 2927 bytes
-2023/03/19-16:22:36.501 3944 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/19-16:22:36.502 3944 Delete type=2 #9
-2023/03/19-16:22:36.502 3944 Delete type=2 #12
-2023/03/19-16:22:36.503 3944 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xce\x06\x06mxB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 244 : 0 .. (end); will stop at (end)
+2023/03/20-17:08:14.541 1fa4 Reusing MANIFEST E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/20-17:08:14.577 1fa4 Recovering log #15
+2023/03/20-17:08:14.577 1fa4 Reusing old log E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000015.log 
+2023/03/20-17:10:22.112 2c0c Level-0 table #20: started
+2023/03/20-17:10:22.155 2c0c Level-0 table #20: 9899 bytes OK
+2023/03/20-17:10:22.413 2c0c Delete type=0 #15
+2023/03/20-17:10:22.425 2c0c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/03/20-17:10:22.425 2c0c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xe0\x0e\xbf\xa7oxB\x00\x03\x00\x00\x00\x00\x00\x00&@' @ 549 : 1
+2023/03/20-17:10:22.445 2c0c Compacting 1@1 + 1@2 files
+2023/03/20-17:10:22.488 2c0c Generated table #21@1: 42 keys, 2585 bytes
+2023/03/20-17:10:22.488 2c0c Compacted 1@1 + 1@2 files => 2585 bytes
+2023/03/20-17:10:22.521 2c0c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/20-17:10:22.522 2c0c Delete type=2 #17
+2023/03/20-17:10:22.522 2c0c Delete type=2 #20
+2023/03/20-17:10:22.523 2c0c Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xe0\x0e\xbf\xa7oxB\x00\x03\x00\x00\x00\x00\x00\x00&@' @ 549 : 1 .. (end); will stop at (end)
