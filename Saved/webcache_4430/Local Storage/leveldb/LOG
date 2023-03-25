@@ -1,6 +1,3 @@
-2023/03/21-17:59:58.931 1f48 Reusing MANIFEST E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2023/03/21-17:59:58.936 1f48 Recovering log #3
-2023/03/21-17:59:59.031 1f48 Reusing old log E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\Local Storage\leveldb/000003.log 
-2023/03/21-18:05:22.691 4414 Level-0 table #5: started
-2023/03/21-18:05:23.148 4414 Level-0 table #5: 11901 bytes OK
-2023/03/21-18:05:23.305 4414 Delete type=0 #3
+2023/03/25-17:42:41.009 1770 Reusing MANIFEST E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/03/25-17:42:41.038 1770 Recovering log #4
+2023/03/25-17:42:41.098 1770 Reusing old log E:/Unreal_projekty/Landscape_test/Landscape_test/Saved/webcache_4430\Local Storage\leveldb/000004.log 
