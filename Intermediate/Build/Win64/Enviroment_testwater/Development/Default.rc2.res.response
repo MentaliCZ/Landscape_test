@@ -2,11 +2,11 @@
 /D_WIN64
 /l 0x409
 /I "."
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE"
-/I "E:\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "E:\Windows Kits\10\include\10.0.19041.0\shared"
-/I "E:\Windows Kits\10\include\10.0.19041.0\um"
-/I "E:\Windows Kits\10\include\10.0.19041.0\winrt"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
 /DIS_PROGRAM=0
 /DUE_GAME=1
 /DENABLE_PGO_PROFILE=0
@@ -46,7 +46,7 @@
 /DWITH_CEF3=1
 /DWITH_LIVE_CODING=1
 /DUE_LIVE_CODING_ENGINE_DIR="C:\\Program Files\\Epic Games\\UE_5.1\\Engine"
-/DUE_LIVE_CODING_PROJECT="E:\\Maturita\\Landscape_test\\Enviroment_testwater.uproject"
+/DUE_LIVE_CODING_PROJECT="C:\\Unreal\\Maturita\\Landscape_test\\Enviroment_testwater.uproject"
 /DWITH_CPP_MODULES=0
 /DWITH_CPP_COROUTINES=0
 /DWITH_PROCESS_PRIORITY_CONTROL=0
@@ -55,7 +55,7 @@
 /DUBT_COMPILED_PLATFORM=Win64
 /DUBT_COMPILED_TARGET=Game
 /DUE_APP_NAME="UnrealGame"
-/DUE_ENGINE_DIRECTORY="C:/Program Files/Epic Games/UE_5.1/Engine/"
+/DUE_ENGINE_DIRECTORY="../../../../../Program Files/Epic Games/UE_5.1/Engine/"
 /DNDIS_MINIPORT_MAJOR_VERSION=0
 /DWIN32=1
 /D_WIN32_WINNT=0x0601
@@ -72,5 +72,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=Enviroment_testwater
-/fo "E:\Maturita\Landscape_test\Intermediate\Build\Win64\Enviroment_testwater\Development\Default.rc2.res"
+/fo "C:\Unreal\Maturita\Landscape_test\Intermediate\Build\Win64\Enviroment_testwater\Development\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
